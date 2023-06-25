@@ -1,0 +1,19 @@
+# workflow
+pytest
+black
+
+# regular
+git+https://github.com/startupradar/transformers.git@develop#egg=startupradar-transformers
+graphviz
+tqdm
+click
+pyarrow # parquet support
+requests
+more-itertools
+
+# ml
+pandas
+scikit-learn
+
+# storage
+psycopg2-binary

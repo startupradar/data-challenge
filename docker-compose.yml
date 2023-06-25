@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    command: bash
+    tty: true
+    volumes:
+      - ./:/code/
+    env_file:
+      - .env
